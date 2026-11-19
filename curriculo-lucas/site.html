@@ -3,16 +3,16 @@
 <meta name="description" content="Lucas Gomes, Analista de Processos e Projetos em Joinville/SC. BPM, ERP, Power BI e IA aplicada a processos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: assimétrico, título à esquerda e apoio à direita; seções separadas por filete fino; um destaque amarelo por tela */
+/* Layout: assimétrico, título à esquerda e apoio à direita; seções separadas por filete fino; um destaque azul por tela */
 :root{
-  --bg:#2c2b2c; --bg-2:#262526; --ink:#f4f2ee; --sub:#c4bfb7; --line:#4f4c4d; --accent:#FFCB29; --accent-text:#FFCB29; --on-accent:#262526;
-  --display:Oswald,'Arial Narrow',Arial,sans-serif; --body:Poppins,'Segoe UI',Arial,sans-serif;
+  --bg:#14171B; --bg-2:#1C2026; --ink:#EEF0F3; --sub:#A3ABB6; --line:#2E343C; --accent:#2F5BEA; --accent-text:#7C9BFF; --on-accent:#FFFFFF;
+  --display:"Space Grotesk",'Arial Narrow',Arial,sans-serif; --body:Inter,'Segoe UI',Arial,sans-serif;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --bg:#ffffff; --bg-2:#f5f4f1; --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-text:#8a6500; --on-accent:#262526; color-scheme:light } }
-:root[data-theme="light"]{ --bg:#ffffff; --bg-2:#f5f4f1; --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-text:#8a6500; --on-accent:#262526; color-scheme:light }
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --bg:#FFFFFF; --bg-2:#F7F7F5; --ink:#1E2328; --sub:#5A6270; --line:#DDE0E4; --accent:#2F5BEA; --accent-text:#2F5BEA; --on-accent:#FFFFFF; color-scheme:light } }
+:root[data-theme="light"]{ --bg:#FFFFFF; --bg-2:#F7F7F5; --ink:#1E2328; --sub:#5A6270; --line:#DDE0E4; --accent:#2F5BEA; --accent-text:#2F5BEA; --on-accent:#FFFFFF; color-scheme:light }
 
 *{ box-sizing:border-box }
 body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--body); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased }
@@ -114,6 +114,12 @@ footer .btn:hover{ background:var(--on-accent); color:var(--accent) }
   .steps li{ grid-template-columns:minmax(0,1fr); gap:4px }
   .btn{ flex:1 1 auto; justify-content:center }
 }
+
+/* Identidade Lucas Gomes: azul + grafite, Space Grotesk + Inter */
+html{border-top:4px solid #2F5BEA}
+h1{text-transform:none!important;letter-spacing:-.02em!important}
+h2,h3{text-transform:none!important;letter-spacing:-.01em!important}
+.skill h3{font-size:1.05rem}
 </style>
 
 <header class="top">
