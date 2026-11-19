@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Gomes · Currículo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-ink:#8a6500; --bg:#ffffff;
+  }
+  @page{ size:A4; margin:0; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ background:#e9e7e2; }
+  body{ font-family:Poppins, Arial, sans-serif; color:var(--ink); font-size:9.1pt; line-height:1.4; }
+  .page{ width:210mm; min-height:297mm; margin:12mm auto; background:var(--bg); padding:12mm 14mm 10mm; position:relative; box-shadow:0 1px 6px rgba(0,0,0,.12); }
+  .page::before{ content:""; position:absolute; left:0; top:0; width:100%; height:3.2mm; background:var(--accent); }
+  @media print{ html{background:#fff} .page{ margin:0; box-shadow:none; height:297mm; min-height:0; overflow:hidden; } }
+
+  header{ display:grid; grid-template-columns:1fr auto; gap:6mm; align-items:end; padding-bottom:4mm; border-bottom:1px solid var(--ink); }
+  h1{ font-family:Oswald, 'Arial Narrow', sans-serif; font-weight:700; font-size:28pt; line-height:1; text-transform:uppercase; letter-spacing:.5px; }
+  .role{ margin-top:2mm; font-weight:600; font-size:10.5pt; }
+  .role b{ color:var(--accent-ink); font-weight:600; }
+  .contact{ text-align:right; font-size:8.6pt; color:var(--sub); line-height:1.6; }
+  .contact a{ color:var(--ink); text-decoration:none; }
+
+  h2{ font-family:Oswald, 'Arial Narrow', sans-serif; font-weight:500; font-size:10.5pt; letter-spacing:1.6px; text-transform:uppercase; margin:4mm 0 1.6mm; display:flex; align-items:center; gap:3mm; }
+  h2::after{ content:""; flex:1; height:1px; background:var(--line); }
+
+  .summary{ font-size:9.1pt; }
+
+  .kpis{ display:grid; grid-template-columns:repeat(4,1fr); margin-top:3mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .kpis div{ padding:2.2mm 3mm; border-left:1px solid var(--line); }
+  .kpis div:first-child{ border-left:0; padding-left:0; }
+  .kpis strong{ display:block; font-family:Oswald, sans-serif; font-size:15pt; font-weight:700; line-height:1.1; }
+  .kpis span{ font-size:7.8pt; color:var(--sub); line-height:1.3; display:block; }
+
+  .job{ margin-top:2.4mm; break-inside:avoid; }
+  .job-head{ display:flex; justify-content:space-between; align-items:baseline; gap:4mm; }
+  .company{ font-weight:600; font-size:10pt; }
+  .where{ color:var(--sub); font-weight:400; font-size:8.6pt; }
+  .dates{ color:var(--sub); font-size:8.6pt; white-space:nowrap; }
+  .position{ margin-top:1.2mm; display:flex; justify-content:space-between; gap:4mm; font-weight:500; }
+  .position .dates{ font-weight:400; }
+  ul{ margin:1mm 0 0 4.2mm; }
+  li{ margin:.3mm 0; padding-left:.5mm; }
+  li::marker{ color:var(--accent-ink); }
+  .path{ margin-top:1.6mm; font-size:8.8pt; color:var(--sub); }
+  .path b{ color:var(--ink); font-weight:500; }
+
+  .two{ display:grid; grid-template-columns:1.05fr 1fr; gap:8mm; }
+  .skills p{ margin:.5mm 0; }
+  .skills b{ font-weight:600; }
+  .edu p{ margin:.5mm 0; }
+  .edu span{ color:var(--sub); }
+  footer{ position:absolute; left:15mm; right:15mm; bottom:7mm; font-size:8pt; color:var(--sub); display:flex; justify-content:space-between; border-top:1px solid var(--line); padding-top:2mm; }
+  footer a{ color:var(--ink); text-decoration:none; font-weight:500; }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div>
+      <h1>Lucas Gomes</h1>
+      <p class="role">Analista de Processos e Projetos · <b>BPM · ERP · BI · IA aplicada</b></p>
+    </div>
+    <div class="contact">
+      Joinville, SC<br>
+      <a href="tel:+5547988368673">(47) 98836-8673</a><br>
+      <a href="mailto:lucasgomes160@gmail.com">lucasgomes160@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/lucasgomes-br/">linkedin.com/in/lucasgomes-br</a>
+    </div>
+  </header>
+
+  <h2>Resumo</h2>
+  <p class="summary">Analista de Processos com 9 anos em suprimentos, logística e gestão, da operação de estoque à governança de processos. Estruturo políticas, regras de negócio e documentação corporativa, e uso <b>ERP</b>, <b>Power BI</b> e <b>Inteligência Artificial</b> para transformar processo em ferramenta prática. Já empreendi (negócio próprio vendido em operação) e cresci de almoxarife a analista em 3 anos na mesma empresa.</p>
+
+  <div class="kpis">
+    <div><strong>54</strong><span>documentos de processo validados e publicados (POP, IT, políticas)</span></div>
+    <div><strong>12 → 0</strong><span>cópias redundantes de documentos após a governança</span></div>
+    <div><strong>2 cliques</strong><span>para publicar atualização (antes, cerca de 15 comandos)</span></div>
+    <div><strong>5 cargos</strong><span>em 3 anos: de almoxarife a analista de processos</span></div>
+  </div>
+
+  <h2>Experiência</h2>
+
+  <section class="job">
+    <div class="job-head">
+      <div class="company">Equipartes Soluções Portuária e Industrial <span class="where">· Joinville, SC</span></div>
+      <div class="dates">ago/2022 – atual</div>
+    </div>
+
+    <div class="position"><span>Analista de Processos e Projetos</span><span class="dates">ago/2025 – atual</span></div>
+    <ul>
+      <li>Criei o <b>Satélite do Conhecimento</b>, portal de governança documental com fonte única, dono por cargo e só documento validado publicado: 54 POPs, ITs e políticas, 23 fluxogramas <b>BPMN</b> e 797 links automáticos entre documentos.</li>
+      <li>Implantei metodologia de documentação corporativa com <b>IA</b> (conversão e validação em lote) e automatizei a publicação de cerca de 15 comandos para 2 cliques.</li>
+      <li>Liderei as <b>políticas comerciais, de compras e de logística</b>; apoiei as financeiras, de pessoas e de conduta.</li>
+      <li>Reestruturei <b>markup e margem</b> e apoiei meta de vendas e comissionamento com cenários.</li>
+      <li><b>Key User do ERP</b>: especificação funcional, homologação e implantação de melhorias com usuários e fornecedor; criei sistemas satélites <b>no-code</b> que centralizam indicadores e reduzem retrabalho.</li>
+    </ul>
+
+    <div class="position"><span>Analista de Compras</span><span class="dates">jan/2025 – ago/2025</span></div>
+    <ul>
+      <li>Estruturei critérios de compra nacional e internacional, com controle de <b>OPEX/CAPEX</b> e regras de decisão.</li>
+      <li>Implantei indicadores de desempenho de fornecedores para decisões de preço e abastecimento.</li>
+    </ul>
+
+    <p class="path"><b>Antes, na mesma empresa:</b> Líder de Logística (mai/2024 – jan/2025: dashboards em <b>Power BI</b> e budget anual do setor) · Líder de Estoque (fev/2023 – mai/2024: equipe, processos e controles) · Almoxarife (ago/2022 – fev/2023).</p>
+  </section>
+
+  <section class="job">
+    <div class="job-head">
+      <div class="company">Lango Mercadinho <span class="where">· Cascavel, CE</span></div>
+      <div class="dates">set/2020 – mai/2022</div>
+    </div>
+    <div class="position"><span>Fundador</span></div>
+    <ul>
+      <li>Abri e operei o negócio de ponta a ponta (finanças, caixa, compras, equipe). Vendido em operação.</li>
+    </ul>
+  </section>
+
+  <section class="job">
+    <div class="job-head">
+      <div class="company">Guerra Metais Indústria Metalúrgica <span class="where">· Fortaleza, CE</span></div>
+      <div class="dates">mai/2017 – set/2020</div>
+    </div>
+    <div class="position"><span>Gerente de Suprimentos</span><span class="dates">jun/2018 – set/2020</span></div>
+    <ul>
+      <li>Estruturei rotinas, relatórios e dashboards de compras e logística para duas empresas do grupo.</li>
+    </ul>
+    <p class="path"><b>Antes:</b> Almoxarife (mai/2017 – mai/2018).</p>
+  </section>
+
+  <div class="two">
+    <section class="skills">
+      <h2>Competências</h2>
+      <p><b>Processos:</b> BPM, BPMN 2.0, mapeamento, governança documental, POP/IT/políticas</p>
+      <p><b>Sistemas:</b> ERP (Key User), especificação funcional, homologação, no-code</p>
+      <p><b>Dados e IA:</b> Power BI, Excel e Google Sheets avançados, IA aplicada a processos</p>
+      <p><b>Negócio:</b> formação de preço e margem, compras, estoque, logística</p>
+      <p><b>Pessoas:</b> liderança, treinamento, comunicação entre áreas</p>
+    </section>
+    <section class="edu">
+      <h2>Formação</h2>
+      <p><b>Processos Gerenciais</b> (bacharelado) — Unisociesc<br><span>Em andamento · conclusão prevista em 2027</span></p>
+      <p><b>Técnico em Logística e Suprimentos</b> — EEEP Eusébio de Queiroz<br><span>Concluído em 2015</span></p>
+      <p><b>Idiomas:</b> português (nativo), inglês</p>
+    </section>
+  </div>
+
+</main>
+</body>
+</html>

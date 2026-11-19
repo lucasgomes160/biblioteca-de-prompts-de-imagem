@@ -1,0 +1,268 @@
+<title>Lucas Gomes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Lucas Gomes, Analista de Processos e Projetos em Joinville/SC. BPM, ERP, Power BI e IA aplicada a processos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: assimétrico, título à esquerda e apoio à direita; seções separadas por filete fino; um destaque amarelo por tela */
+:root{
+  --bg:#2c2b2c; --bg-2:#262526; --ink:#f4f2ee; --sub:#c4bfb7; --line:#4f4c4d; --accent:#FFCB29; --accent-text:#FFCB29; --on-accent:#262526;
+  --display:Oswald,'Arial Narrow',Arial,sans-serif; --body:Poppins,'Segoe UI',Arial,sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --bg:#ffffff; --bg-2:#f5f4f1; --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-text:#8a6500; --on-accent:#262526; color-scheme:light } }
+:root[data-theme="light"]{ --bg:#ffffff; --bg-2:#f5f4f1; --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-text:#8a6500; --on-accent:#262526; color-scheme:light }
+
+*{ box-sizing:border-box }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--body); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased }
+a{ color:inherit }
+.wrap{ max-width:1080px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)) }
+h1,h2,h3{ font-family:var(--display); text-transform:uppercase; font-weight:700; line-height:1.05; margin:0; text-wrap:balance }
+.eyebrow{ font-family:var(--display); font-weight:500; letter-spacing:.18em; text-transform:uppercase; font-size:.8rem; color:var(--sub); margin:0 0 .9rem }
+.hl{ color:var(--accent-text) }
+:focus-visible{ outline:2px solid var(--accent); outline-offset:3px }
+
+/* topo */
+.top{ border-top:6px solid var(--accent); background:var(--bg-2) }
+.top .wrap{ padding-block:56px 48px; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:48px; align-items:end }
+.top h1{ font-size:clamp(3rem, 9vw, 6.2rem); letter-spacing:.01em }
+.role{ font-size:clamp(1.05rem,2.2vw,1.3rem); font-weight:500; margin:.9rem 0 0 }
+.pitch{ color:var(--sub); max-width:58ch; margin:1.1rem 0 0 }
+.actions{ display:flex; flex-wrap:wrap; gap:10px; margin-top:1.8rem }
+.btn{ display:inline-flex; align-items:center; gap:8px; padding:.7rem 1.1rem; border:1px solid var(--line); color:var(--ink); text-decoration:none; font-weight:500; font-size:.95rem; background:transparent; cursor:pointer; font-family:inherit }
+.btn:hover{ border-color:var(--ink) }
+.btn.primary{ background:var(--accent); border-color:var(--accent); color:var(--on-accent); font-weight:600 }
+.btn svg{ width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.8 }
+.card-id{ border-left:1px solid var(--line); padding-left:24px; display:grid; gap:14px; font-size:.95rem }
+.card-id dt{ font-family:var(--display); text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; color:var(--sub) }
+.card-id dd{ margin:2px 0 0; user-select:all; overflow-wrap:anywhere }
+
+/* números */
+.nums{ border-bottom:1px solid var(--line) }
+.nums .wrap{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)) }
+.num{ padding:28px 20px; border-left:1px solid var(--line) }
+.num:first-child{ border-left:0; padding-left:0 }
+.num strong{ display:block; font-family:var(--display); font-size:clamp(1.8rem,4vw,2.6rem); line-height:1; font-variant-numeric:tabular-nums }
+.num span{ display:block; color:var(--sub); font-size:.85rem; margin-top:.5rem; line-height:1.4 }
+
+/* seções */
+section.block{ border-bottom:1px solid var(--line) }
+section.block > .wrap{ padding-block:64px; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:48px }
+section.block h2{ font-size:clamp(1.8rem,4vw,2.6rem) }
+.lead{ color:var(--sub); margin:.9rem 0 0; max-width:36ch }
+
+/* trajetória */
+.steps{ list-style:none; margin:0; padding:0; display:grid }
+.steps li{ display:grid; grid-template-columns:110px minmax(0,1fr); gap:20px; padding:18px 0; border-top:1px solid var(--line) }
+.steps li:first-child{ border-top:0; padding-top:0 }
+.when{ font-family:var(--display); color:var(--sub); letter-spacing:.06em; font-size:.95rem; font-variant-numeric:tabular-nums }
+.steps h3{ font-size:1.25rem; letter-spacing:.02em }
+.steps .org{ color:var(--sub); font-size:.9rem; margin:.15rem 0 .4rem }
+.steps p{ margin:0 }
+.steps li.now h3{ color:var(--accent-text) }
+.climb{ display:flex; flex-wrap:wrap; gap:6px 0; margin:.6rem 0 0; padding:0; list-style:none; font-size:.85rem; color:var(--sub) }
+.climb li{ display:block; padding:0; border:0 }
+.climb li + li::before{ content:"→"; margin:0 .5rem; color:var(--accent-text) }
+
+/* case */
+.case p{ margin:0 0 1rem; max-width:64ch }
+.table-wrap{ overflow-x:auto; margin-top:1.4rem }
+table{ border-collapse:collapse; width:100%; min-width:460px; font-size:.95rem }
+th,td{ text-align:left; padding:12px 14px 12px 0; border-bottom:1px solid var(--line); vertical-align:top }
+th{ font-family:var(--display); font-weight:500; text-transform:uppercase; letter-spacing:.12em; font-size:.75rem; color:var(--sub) }
+td.after{ font-weight:600 }
+.tags{ display:flex; flex-wrap:wrap; gap:8px; margin-top:1.4rem; padding:0; list-style:none }
+.tags li{ border:1px solid var(--line); padding:.25rem .7rem; font-size:.82rem; color:var(--sub) }
+
+/* competências */
+.skills{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 40px }
+.skill{ padding:16px 0; border-top:1px solid var(--line) }
+.skill h3{ font-size:1rem; letter-spacing:.08em }
+.skill p{ margin:.35rem 0 0; color:var(--sub); font-size:.95rem }
+
+/* formação */
+.edu{ display:grid; gap:0 }
+.edu div{ padding:16px 0; border-top:1px solid var(--line) }
+.edu div:first-child{ border-top:0; padding-top:0 }
+.edu strong{ font-weight:600 }
+.edu span{ display:block; color:var(--sub); font-size:.92rem }
+
+/* rodapé */
+footer{ background:var(--accent); color:var(--on-accent) }
+footer .wrap{ padding-block:40px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:20px }
+footer h2{ font-size:clamp(1.6rem,4vw,2.4rem) }
+footer .btn{ border-color:var(--on-accent); color:var(--on-accent) }
+footer .btn:hover{ background:var(--on-accent); color:var(--accent) }
+.toast{ font-size:.85rem; min-height:1.2em; color:var(--sub); margin-top:.6rem }
+
+@media (prefers-reduced-motion: no-preference){
+  .top h1,.role,.pitch,.actions{ animation:rise .6s ease both }
+  .role{ animation-delay:.06s } .pitch{ animation-delay:.12s } .actions{ animation-delay:.18s }
+  @keyframes rise{ from{ opacity:.0001; transform:translateY(8px) } to{ opacity:1; transform:none } }
+}
+@media (max-width:820px){
+  .top .wrap{ grid-template-columns:minmax(0,1fr); gap:32px; padding-block:40px 36px }
+  .card-id{ border-left:0; padding-left:0; border-top:1px solid var(--line); padding-top:20px }
+  .nums .wrap{ grid-template-columns:repeat(2,minmax(0,1fr)) }
+  .num:nth-child(3){ border-left:0; padding-left:0 }
+  .num:nth-child(n+3){ border-top:1px solid var(--line) }
+  section.block > .wrap{ grid-template-columns:minmax(0,1fr); gap:24px; padding-block:48px }
+  .skills{ grid-template-columns:minmax(0,1fr) }
+}
+@media (max-width:480px){
+  .steps li{ grid-template-columns:minmax(0,1fr); gap:4px }
+  .btn{ flex:1 1 auto; justify-content:center }
+}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Joinville, SC · Processos · Projetos</p>
+      <h1>Lucas <span class="hl">Gomes</span></h1>
+      <p class="role">Analista de Processos e Projetos · BPM, ERP, BI e IA aplicada</p>
+      <p class="pitch">Transformo processo bagunçado em rotina clara: política escrita, documento vigente, indicador na tela e sistema que a equipe usa. Comecei como almoxarife e cheguei a analista de processos em 3 anos, passando por estoque, logística e compras.</p>
+      <div class="actions">
+        <a class="btn primary" href="Curriculo-Lucas-Gomes-2026.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>Currículo em PDF</a>
+        <a class="btn" href="https://www.linkedin.com/in/lucasgomes-br/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/></svg>LinkedIn</a>
+        <a class="btn" href="https://wa.me/5547988368673" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4-1.1L4 20z"/></svg>WhatsApp</a>
+      </div>
+    </div>
+    <dl class="card-id">
+      <div><dt>E-mail</dt><dd id="mail">lucasgomes160@gmail.com</dd></div>
+      <div><dt>Telefone e WhatsApp</dt><dd>(47) 98836-8673</dd></div>
+      <div><dt>Base</dt><dd>Joinville, SC</dd></div>
+      <div><button class="btn" id="copy" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11"/><path d="M5 15V4h11"/></svg>Copiar e-mail</button>
+        <div class="toast" id="toast" role="status"></div></div>
+    </dl>
+  </div>
+</header>
+
+<div class="nums">
+  <div class="wrap">
+    <div class="num"><strong>9 anos</strong><span>em suprimentos, logística e processos</span></div>
+    <div class="num"><strong>54</strong><span>documentos de processo validados e publicados</span></div>
+    <div class="num"><strong>23</strong><span>fluxogramas em BPMN 2.0 dentro dos POPs</span></div>
+    <div class="num"><strong>2 cliques</strong><span>para publicar atualização (antes, cerca de 15 comandos)</span></div>
+  </div>
+</div>
+
+<section class="block" id="trajetoria">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Trajetória</p>
+      <h2>Do chão do estoque à <span class="hl">gestão</span></h2>
+      <p class="lead">Conheço a operação por dentro. Por isso o processo que eu desenho funciona na prática.</p>
+    </div>
+    <ol class="steps">
+      <li class="now">
+        <span class="when">2022 – hoje</span>
+        <div>
+          <h3>Analista de Processos e Projetos</h3>
+          <p class="org">Equipartes Soluções Portuária e Industrial · Joinville, SC</p>
+          <p>Governança de processos, políticas comerciais, de compras e de logística, markup e margem, Key User do ERP e sistemas satélites no-code.</p>
+          <ul class="climb" aria-label="Cargos na empresa">
+            <li>Almoxarife</li><li>Líder de Estoque</li><li>Líder de Logística</li><li>Analista de Compras</li><li>Analista de Processos</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <span class="when">2020 – 2022</span>
+        <div>
+          <h3>Fundador</h3>
+          <p class="org">Lango Mercadinho · Cascavel, CE</p>
+          <p>Abri e operei o negócio de ponta a ponta: finanças, caixa, compras e equipe. Vendido em operação, segue ativo.</p>
+        </div>
+      </li>
+      <li>
+        <span class="when">2017 – 2020</span>
+        <div>
+          <h3>Gerente de Suprimentos</h3>
+          <p class="org">Guerra Metais Indústria Metalúrgica · Fortaleza, CE</p>
+          <p>Comecei como almoxarife. Estruturei rotinas, relatórios e dashboards de compras e logística para duas empresas do grupo.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="block case" id="case">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Case principal</p>
+      <h2>Satélite do <span class="hl">Conhecimento</span></h2>
+      <p class="lead">Governança documental com tecnologia e IA.</p>
+    </div>
+    <div>
+      <p><strong>O problema.</strong> Os POPs, instruções e políticas ficavam em pasta de rede, com cópias repetidas e sem versão única. Ninguém sabia qual era o documento vigente.</p>
+      <p><strong>O que fiz.</strong> Medi a situação inicial, defini as regras (fonte única, dono por cargo, só publica o que está validado) e montei um portal interno com login da empresa. Usei IA para converter e validar os documentos em lote e para gerar os fluxogramas em BPMN.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Indicador</th><th>Antes</th><th>Depois</th></tr></thead>
+          <tbody>
+            <tr><td>Documentos validados e publicados</td><td>0</td><td class="after">54</td></tr>
+            <tr><td>Cópias redundantes</td><td>12</td><td class="after">0</td></tr>
+            <tr><td>POPs com fluxograma BPMN</td><td>0</td><td class="after">23</td></tr>
+            <tr><td>Links entre documentos</td><td>manuais</td><td class="after">797 automáticos</td></tr>
+            <tr><td>Publicar uma atualização</td><td>cerca de 15 comandos</td><td class="after">2 cliques</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="tags"><li>Governança</li><li>POP · IT · Políticas</li><li>BPMN 2.0</li><li>IA aplicada</li><li>Automação</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="competencias">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Competências</p>
+      <h2>O que eu <span class="hl">entrego</span></h2>
+    </div>
+    <div class="skills">
+      <div class="skill"><h3>Processos</h3><p>BPM, BPMN 2.0, mapeamento, POP, IT, políticas e governança documental.</p></div>
+      <div class="skill"><h3>ERP</h3><p>Key User: especificação funcional, parametrização, homologação e melhoria com o fornecedor.</p></div>
+      <div class="skill"><h3>Dados e BI</h3><p>Power BI, Excel e Google Sheets avançados, indicadores e dashboards de gestão.</p></div>
+      <div class="skill"><h3>IA aplicada</h3><p>Documentação com IA, sistemas no-code e automação de rotinas sem depender de TI.</p></div>
+      <div class="skill"><h3>Negócio</h3><p>Formação de preço e margem, compras nacionais e internacionais, estoque e logística.</p></div>
+      <div class="skill"><h3>Pessoas</h3><p>Liderança de equipe, treinamento e comunicação entre áreas e níveis.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="formacao">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Formação</p>
+      <h2>Estudo <span class="hl">contínuo</span></h2>
+    </div>
+    <div class="edu">
+      <div><strong>Bacharelado em Processos Gerenciais</strong><span>Unisociesc · em andamento, conclusão prevista em 2027</span></div>
+      <div><strong>Técnico em Gestão Logística e Suprimentos</strong><span>EEEP Eusébio de Queiroz · concluído em 2015</span></div>
+      <div><strong>Idiomas</strong><span>Português (nativo) · Inglês</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <h2>Vamos conversar?</h2>
+    <div class="actions" style="margin-top:0">
+      <a class="btn" href="https://wa.me/5547988368673" target="_blank" rel="noopener">WhatsApp (47) 98836-8673</a>
+      <a class="btn" href="https://www.linkedin.com/in/lucasgomes-br/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('copy').addEventListener('click', function(){
+  var t=document.getElementById('toast'), m=document.getElementById('mail').textContent;
+  function sel(){ var r=document.createRange(); r.selectNodeContents(document.getElementById('mail')); var s=getSelection(); s.removeAllRanges(); s.addRange(r); t.textContent='E-mail selecionado. Use Ctrl+C.'; }
+  try{ navigator.clipboard.writeText(m).then(function(){ t.textContent='E-mail copiado.'; }, sel); }catch(e){ sel(); }
+});
+</script>
