@@ -17,12 +17,18 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 - As sessões "Currículo, site e LinkedIn" e "Curadoria visual do currículo" foram encerradas em 22/11. Pedido enviado para elas salvarem tudo e mandarem o contexto para cá.
 - Daqui para frente, ajustes de site, visual, currículo e LinkedIn são feitos só aqui.
 
-## Estado em 22/11 (noite)
+## Estado final (22/11, noite) — sessão fechada
 
-- Sessões antigas salvaram tudo no cofre (Drive > EU SOU FODA > CEREBROCEARENSE). Fontes: `carreira/2026-11-22-decisoes-curadoria-carreira.md`, `carreira/2026-11-22-linkedin-textos-rascunho.md`, `carreira/2026-11-22-sessao-site-publicado.md`.
-- Site público (no QR do currículo): https://claude.ai/artifact/5B4tvPujAreAgxcrS7zQ1P (v14).
-- Prévia com o ajuste de rolagem: https://claude.ai/artifact/5hvvRhTSeEXALTxeqwXq2S (privada; é a v6, vira arquivo depois do OK).
-- Site novo só vai para o link público com OK do Lucas.
+| # | Entrega | Status |
+|---|---|---|
+| 1 | Currículo no Drive | ✅ `assets/carreira/curriculos/Curriculo-Lucas-Gomes-Processos.pdf` e `Curriculo-Lucas-Gomes-Lideranca.pdf` (com estrela) + fontes `.html` |
+| 2 | LinkedIn | 🔄 texto final pronto em `carreira/2026-11-22-linkedin-textos-final.md`; falta o Lucas colar (formação primeiro) e subir os 2 PDFs em Destaques |
+| 3 | Cérebro | ✅ `carreira/2026-11-22-trajetoria-mestre.md` (nota única para roteiros) |
+| 4 | Central | ✅ Carreira com um cartão (site e currículos); formulários, opções visuais e prévia em Arquivados |
+
+- Site público: https://claude.ai/artifact/5B4tvPujAreAgxcrS7zQ1P (v17). Botão "Currículo" serve o PDF de Processos.
+- Formação: Tecnólogo em Processos Gerenciais (não bacharelado). Guerra e Lango sem números.
+- Soft skills: pensamento analítico, proatividade, comprometimento, comunicação interpessoal ("entregas comprovadas" não é soft skill).
 
 ## Ajustes de visual (feitos na prévia em 22/11)
 
