@@ -37,6 +37,7 @@ h1,h2,h3{ font-family:var(--display); text-transform:uppercase; font-weight:700;
 .card-id{ border-left:1px solid var(--line); padding-left:24px; display:grid; gap:14px; font-size:.95rem }
 .card-id dt{ font-family:var(--display); text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; color:var(--sub) }
 .card-id dd{ margin:2px 0 0; user-select:all; overflow-wrap:anywhere }
+.photo{ display:block; justify-self:start; width:clamp(128px,16vw,176px); height:auto; aspect-ratio:1/1; max-width:100%; border-radius:50%; object-fit:cover; border:2px solid var(--accent-text); padding:4px; background:var(--bg-2); margin-bottom:6px }
 
 /* números */
 .nums{ border-bottom:1px solid var(--line) }
@@ -139,6 +140,7 @@ h2,h3{text-transform:none!important;letter-spacing:-.01em!important}
       </div>
     </div>
     <dl class="card-id">
+      <img class="photo" src="foto-lucas.jpg" alt="Foto de Lucas Gomes" width="176" height="176">
       <div><dt>E-mail</dt><dd id="mail">lucasgomes160@gmail.com</dd></div>
       <div><dt>Telefone e WhatsApp</dt><dd>(47) 98836-8673</dd></div>
       <div><dt>Base</dt><dd>Joinville, SC</dd></div>
