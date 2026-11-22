@@ -17,7 +17,14 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 - As sessões "Currículo, site e LinkedIn" e "Curadoria visual do currículo" foram encerradas em 22/11. Pedido enviado para elas salvarem tudo e mandarem o contexto para cá.
 - Daqui para frente, ajustes de site, visual, currículo e LinkedIn são feitos só aqui.
 
-## Ajustes de visual pendentes (site/currículo HTML)
+## Estado em 22/11 (noite)
+
+- Sessões antigas salvaram tudo no cofre (Drive > EU SOU FODA > CEREBROCEARENSE). Fontes: `carreira/2026-11-22-decisoes-curadoria-carreira.md`, `carreira/2026-11-22-linkedin-textos-rascunho.md`, `carreira/2026-11-22-sessao-site-publicado.md`.
+- Site público (no QR do currículo): https://claude.ai/artifact/5B4tvPujAreAgxcrS7zQ1P (v14).
+- Prévia com o ajuste de rolagem: https://claude.ai/artifact/5hvvRhTSeEXALTxeqwXq2S (privada; é a v6, vira arquivo depois do OK).
+- Site novo só vai para o link público com OK do Lucas.
+
+## Ajustes de visual (feitos na prévia em 22/11)
 
 1. **Topo que encolhe ao rolar:** abrir com foto + dados (como hoje). Ao descer, esse bloco diminui (vira uma barra compacta fixa) e o resto do conteúdo aparece. Celular e PC com comportamento próprio.
 2. **Menos rolagem:** hoje é preciso descer demais, parece vídeo de site de empresa. Encurtar as seções e tirar os espaços vazios grandes.
