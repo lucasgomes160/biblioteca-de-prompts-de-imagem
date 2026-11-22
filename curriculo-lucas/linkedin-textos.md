@@ -23,20 +23,23 @@ Por quê: o recrutador busca por cargo e por palavra-chave. O título começa pe
 
 > Resolvo problemas de operação com processo, dados e Inteligência Artificial.
 >
-> Comecei no estoque e passei por logística, compras e gestão de suprimentos antes de chegar a processos. No meio do caminho, abri, operei e vendi um negócio próprio. Por isso desenho processos que funcionam no dia a dia, e não só no papel.
+> Comecei como estoquista na indústria e cheguei a gerente de suprimentos, cuidando do estoque e das compras da sede e da principal filial do grupo. Na pandemia, abri um mercadinho, fiz vender 6 vezes mais em 2 anos e vendi o negócio em operação. Em Joinville, recomecei no estoque e passei por logística e compras até chegar a processos.
 >
-> Como Analista de Processos e Projetos, estruturei do zero a área de processos e a governança de uma empresa industrial:
-> • mais de 60 processos mapeados, documentados e implantados;
-> • mais de 25 projetos de melhoria conduzidos com as áreas;
-> • rituais de gestão semanais e mensais com lideranças e diretoria;
-> • sistemas internos e automações feitos com IA, que trocaram planilhas e trabalho manual por informação no momento certo.
+> Hoje estruturo processos e governança numa empresa industrial:
+> • levei rotinas de papel e planilha para sistemas, três deles criados por mim com IA, em vendas, compras e logística;
+> • transformei regra que estava na cabeça de poucos em regra escrita, com dono;
+> • implantei o ritmo de gestão: reuniões com ata, responsável e prazo;
+> • protegi a margem com regras de preço e de aprovação no ERP;
+> • treinei as equipes no ERP e nos processos novos.
 >
-> Meu método tem três passos: entender o processo real com quem executa, levar a regra para o sistema e automatizar o trabalho repetido.
+> Na IA, sigo uma regra: só entra o que traz mais receita, menos custo ou mais produtividade.
 >
-> Quero contribuir em empresas que precisam crescer com eficiência, em áreas de processos, melhoria contínua, projetos e transformação digital.
+> Sou analítico, proativo e gosto de fazer acontecer. Uma peça só não move uma máquina: o resultado vem com as áreas junto.
 >
-> Ferramentas: BPM e BPMN, ERP (Key User), Power BI, Excel com VBA, Google Workspace, IA generativa e agentes de IA.
+> Ferramentas: BPM e BPMN, MASP, ERP (Key User), Power BI, Excel com VBA, IA generativa e agentes de IA.
 > Joinville, SC.
+
+Nota: o texto não diz que você busca emprego. Ele descreve o que você faz. Isso funciona para recrutador e não chama atenção na empresa atual.
 
 ---
 
@@ -45,12 +48,12 @@ Por quê: o recrutador busca por cargo e por palavra-chave. O título começa pe
 ### Equipartes Soluções Portuária e Industrial
 
 **Analista de Processos e Projetos** · ago/2025 – atual
-> Responsável por processos, governança e projetos de melhoria. Key User do ERP.
-> • Estruturei a área de processos do zero: primeiras políticas, mais de 60 processos documentados e portal de documentos para a empresa toda.
-> • Implantei os rituais de gestão (semanal e mensal), com ata, responsável e prazo, e acompanho mais de 25 projetos de melhoria.
-> • Estruturei as políticas comerciais, de compras e de logística, com regras de preço, margem e aprovação configuradas no ERP.
-> • Conduzi mais de 200 horas de treinamento das equipes no ERP e o levantamento de requisitos para a escolha de um novo sistema.
-> • Criei com IA sistemas internos e automações que substituíram controles em planilha e a extração manual de relatórios.
+> Responsável por processos, governança e projetos de melhoria. Key User do ERP. Faço a ponte entre a diretoria e a execução.
+> • Estruturei a área de processos do zero: primeiras políticas e processos de todas as áreas mapeados e escritos, com dono.
+> • Criei com IA três sistemas internos, em vendas, compras e logística, que trocaram papel e planilha por controle.
+> • Implantei o ritmo de gestão (semanal e mensal), com ata, responsável e prazo, e acompanho os projetos de melhoria.
+> • Estruturei as políticas comerciais, de compras e de logística, com regras de preço, margem e aprovação no ERP.
+> • Treinei as equipes no ERP e nos processos novos e conduzi a integração de quem chegou à empresa.
 
 **Analista de Compras** · jan/2025 – ago/2025
 > • Estruturei critérios de compra nacional e internacional, com controle de OPEX e CAPEX.
@@ -66,20 +69,20 @@ Por quê: o recrutador busca por cargo e por palavra-chave. O título começa pe
 > • Criei os processos e controles de rotina da área.
 
 **Almoxarife** · ago/2022 – fev/2023
-> • Entrada na empresa, na operação de estoque. Em 3 anos, passei por cinco cargos até a área de processos.
+> • Recomecei em Joinville na operação de estoque. Em 3 anos, passei por cinco cargos até a área de processos.
 
 ### Lango Mercadinho · Fundador · set/2020 – mai/2022
-> • Idealizei e operei o negócio de ponta a ponta: planejamento, atendimento, finanças, compras e equipe.
-> • Vendi o negócio em operação. Ele segue ativo até hoje.
+> • Abri o negócio na pandemia e operei de ponta a ponta: planejamento, atendimento, finanças, compras e equipe.
+> • Fiz o mercadinho vender 6 vezes mais em 2 anos e vendi o negócio em operação. Ele segue ativo.
 
-### Guerra Metais Indústria Metalúrgica
+### Guerra Metais Indústria Metalúrgica (Grupo Guerra)
 **Gerente de Suprimentos** · jun/2018 – set/2020
-> • Liderei cotação, negociação e compras de duas empresas do grupo ao mesmo tempo.
-> • Cuidei do cadastro de fornecedores, do follow-up de compras e da supervisão do estoque.
+> • Assumi o estoque e as compras da sede e da principal filial do grupo.
+> • Liderei cotação, negociação, cadastro de fornecedores e follow-up de compras.
 > • Criei relatórios e dashboards para apoiar decisões e reduzir custos.
 
 **Almoxarife** · mai/2017 – mai/2018
-> • Controle de estoque, conferência de notas, expedição, inventários e relatórios.
+> • Comecei no estoque: conferência de notas, expedição, inventários e relatórios. Um ano depois, assumi a gestão de suprimentos.
 
 ---
 
@@ -93,6 +96,7 @@ Por quê: o recrutador busca por cargo e por palavra-chave. O título começa pe
 | 4 | **Certificados:** deixar no topo MASP, Power BI, Excel VBA, Liderança e Agentes de IA | Mostram processo, dados e IA, os três pilares do posicionamento |
 | 5 | **Banner (capa):** fundo azul-marinho com a frase "Processos, Negócios e IA" | Reforça o posicionamento na primeira olhada |
 | 6 | **"Aberto a trabalho":** manter só para recrutadores | Sigilo com a empresa atual |
+| 7 | **Nunca publicar post nem "compartilhar com a rede"** ao editar o perfil (Configurações > Visibilidade > Compartilhar alterações do perfil: desligado) | Ninguém da empresa recebe aviso de que o perfil mudou |
 
 ---
 
