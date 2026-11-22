@@ -32,6 +32,9 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 3. **Limite de altura (regra do Lucas):** celular no máximo 4 telas de altura (≈3 arrastadas fortes); PC no máximo 3 telas. Medir antes de publicar.
 4. **Foto:** mostrar cabeça e ombros, nunca recorte só do rosto.
 
+5. **Cores:** fundo azul-marinho (#0A1628) com um segundo tom nas seções alternadas (#0F203D); laranja #FE7F2D só na ação e nos destaques. Nada de verde-petróleo.
+6. **Referência de design:** fork `lucasgomes160/estetica-para-agentes` (taste-skill): separar por tom, não por linha; destaque com menos de 5% da tela.
+
 ## Regra de artefatos (entrega 4)
 
 - Um assunto = um artefato. Antes de criar, procurar se já existe; se existir, **atualizar o mesmo link**.
