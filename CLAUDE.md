@@ -12,6 +12,16 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 | 3 | **Cérebro atualizado** | Todo o contexto de carreira e trajetória dado pelo usuário está registrado no cérebro, pronto para gerar roteiros e materiais de autopromoção. |
 | 4 | **Central do Conhecimento (central de artefatos) organizada** | Links atualizados e **1 artefato por assunto** — sem duplicados. |
 
+## Esta sessão é a central
+
+- As sessões "Currículo, site e LinkedIn" e "Curadoria visual do currículo" foram encerradas em 22/11. Pedido enviado para elas salvarem tudo e mandarem o contexto para cá.
+- Daqui para frente, ajustes de site, visual, currículo e LinkedIn são feitos só aqui.
+
+## Ajustes de visual pendentes (site/currículo HTML)
+
+1. **Topo que encolhe ao rolar:** abrir com foto + dados (como hoje). Ao descer, esse bloco diminui (vira uma barra compacta fixa) e o resto do conteúdo aparece. Celular e PC com comportamento próprio.
+2. **Menos rolagem:** hoje é preciso descer demais, parece vídeo de site de empresa. Encurtar as seções e tirar os espaços vazios grandes.
+
 ## Regra de artefatos (entrega 4)
 
 - Um assunto = um artefato. Antes de criar, procurar se já existe; se existir, **atualizar o mesmo link**.
