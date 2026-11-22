@@ -8,16 +8,16 @@
 <meta name="description" content="Lucas Gomes: processos, gestão de negócios e IA. Eficiência operacional e transformação digital. Joinville/SC.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: página para entender a pessoa, não um currículo. Topo com foto e provas; trajetória em linha horizontal; antes e depois; quem sou; IA; base técnica. Filetes finos, um destaque azul-marinho por tela. */
 :root{
-  --bg:#121417; --bg-2:#1A1D21; --ink:#ECEEF0; --sub:#A4ACB6; --line:#2C3138; --accent:#1F3A5F; --accent-text:#9DB4D6; --steel:#6E85A3; --on-accent:#FFFFFF;
-  --display:"Barlow Semi Condensed",'Arial Narrow',Arial,sans-serif; --body:Inter,'Segoe UI',Arial,sans-serif;
+  --bg:#111418; --bg-2:#191D22; --ink:#ECEEF1; --sub:#959EAB; --line:#272C33; --accent:#1F3A5F; --accent-text:#9DB4D6; --steel:#6E85A3; --on-accent:#FFFFFF;
+  --display:"Plus Jakarta Sans",'Segoe UI',Arial,sans-serif; --body:"Plus Jakarta Sans",'Segoe UI',Arial,sans-serif;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --bg:#FFFFFF; --bg-2:#F6F6F4; --ink:#22262B; --sub:#5B636D; --line:#DCDFE3; --accent:#1F3A5F; --accent-text:#1F3A5F; --steel:#6E85A3; --on-accent:#FFFFFF; color-scheme:light } }
-:root[data-theme="light"]{ --bg:#FFFFFF; --bg-2:#F6F6F4; --ink:#22262B; --sub:#5B636D; --line:#DCDFE3; --accent:#1F3A5F; --accent-text:#1F3A5F; --steel:#6E85A3; --on-accent:#FFFFFF; color-scheme:light }
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --bg:#FFFFFF; --bg-2:#F4F2EE; --ink:#1F2328; --sub:#6B6F76; --line:#E7E3DC; --accent:#1F3A5F; --accent-text:#1F3A5F; --steel:#6E85A3; --on-accent:#FFFFFF; color-scheme:light } }
+:root[data-theme="light"]{ --bg:#FFFFFF; --bg-2:#F4F2EE; --ink:#1F2328; --sub:#6B6F76; --line:#E7E3DC; --accent:#1F3A5F; --accent-text:#1F3A5F; --steel:#6E85A3; --on-accent:#FFFFFF; color-scheme:light }
 
 *{ box-sizing:border-box }
 html{ border-top:4px solid var(--accent) }
@@ -145,6 +145,32 @@ footer .btn:hover{ background:var(--on-accent); color:var(--accent) }
   .eyebrow{ font-size:.68rem }
   .actions .btn{ padding:.58rem .8rem; font-size:.9rem }
 }
+
+/* Identidade Lucas Gomes: bento claro, modo escuro com brilho azul, Plus Jakarta Sans */
+:root{--lg-tile:#FFFFFF;--lg-shadow:0 1px 2px rgba(31,35,40,.04),0 14px 28px -18px rgba(31,35,40,.22);--lg-glow:transparent;--lg-glow2:transparent;--lg-h1:#1F3A5F;--lg-h2:#2B4A75;--lg-tl:rgba(0,0,0,0)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--lg-tile:#191D22;--lg-shadow:0 20px 40px -24px rgba(0,0,0,.6);--lg-glow:#2B4468;--lg-glow2:#1E2A3C;--lg-h1:#2B4468;--lg-h2:#1A2638;--lg-tl:rgba(255,255,255,.07)}}
+:root[data-theme="dark"]{--lg-tile:#191D22;--lg-shadow:0 20px 40px -24px rgba(0,0,0,.6);--lg-glow:#2B4468;--lg-glow2:#1E2A3C;--lg-h1:#2B4468;--lg-h2:#1A2638;--lg-tl:rgba(255,255,255,.07)}
+html{border-top:0}
+html::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(900px 480px at 92% -8%,var(--lg-glow),transparent 62%),radial-gradient(700px 420px at -6% 108%,var(--lg-glow2),transparent 58%)}
+body{background:transparent}
+html{background:var(--bg)}
+h1{font-weight:800;letter-spacing:-.03em}
+.top{border-bottom:0;background:linear-gradient(140deg,var(--lg-h2),var(--lg-h1));border-radius:0 0 32px 32px;color:#fff}
+.top h1,.top .role,.top .contact #mail,.top .pitch b{color:#fff}.top .hl,.top .linkbtn{color:#B9CCEA}
+.top .pitch,.top .eyebrow,.top .contact,.top .toast,.top .proof span{color:rgba(255,255,255,.78)}
+.top .btn{border-color:rgba(255,255,255,.35);color:#fff}.top .btn:hover{border-color:#fff}
+.top .btn.primary{background:#fff;color:#1F3A5F;border-color:#fff}
+.top .photo{border-color:#B9CCEA;background:rgba(255,255,255,.08)}
+.proof{border-left-color:rgba(255,255,255,.2)}.proof div{border-top-color:rgba(255,255,255,.18)}
+.proof strong{color:#fff;letter-spacing:-.02em}
+section{border-bottom:0}
+.btn{border-radius:12px}
+.ba{gap:12px}.ba div,.skill,.ai li,.base div{background:var(--lg-tile);border:1px solid var(--lg-tl);border-radius:18px;padding:14px 16px;box-shadow:var(--lg-shadow)}
+.skills,.ai ul,.base{gap:12px}
+.tl-scroll{background:var(--lg-tile);border:1px solid var(--lg-tl);border-radius:22px;padding:18px 20px 12px;box-shadow:var(--lg-shadow)}
+.step::before{background:var(--lg-tile)}
+footer{border-radius:32px 32px 0 0}
+@media (max-width:860px){.proof{border-top-color:rgba(255,255,255,.2)}}
 </style>
 
 </head>
