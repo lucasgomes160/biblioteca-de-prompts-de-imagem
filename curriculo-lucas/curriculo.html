@@ -6,35 +6,35 @@
 <title>Lucas Gomes · Currículo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#262526; --sub:#5b5a58; --line:#dcdad4; --accent:#FFCB29; --accent-ink:#8a6500; --bg:#ffffff;
+    --ink:#22262B; --sub:#5B636D; --line:#DCDFE3; --accent:#1F3A5F; --accent-ink:#1F3A5F; --steel:#6E85A3; --bg:#ffffff;
   }
   @page{ size:A4; margin:0; }
   *{ box-sizing:border-box; margin:0; padding:0; }
   html{ background:#e9e7e2; }
-  body{ font-family:Poppins, Arial, sans-serif; color:var(--ink); font-size:9.1pt; line-height:1.4; }
+  body{ font-family:Inter, Arial, sans-serif; color:var(--ink); font-size:9.1pt; line-height:1.4; }
   .page{ width:210mm; min-height:297mm; margin:12mm auto; background:var(--bg); padding:12mm 14mm 10mm; position:relative; box-shadow:0 1px 6px rgba(0,0,0,.12); }
-  .page::before{ content:""; position:absolute; left:0; top:0; width:100%; height:3.2mm; background:var(--accent); }
+  .page::before{ content:""; position:absolute; left:0; top:0; width:100%; height:2mm; background:var(--accent); }
   @media print{ html{background:#fff} .page{ margin:0; box-shadow:none; height:297mm; min-height:0; overflow:hidden; } }
 
   header{ display:grid; grid-template-columns:1fr auto; gap:6mm; align-items:end; padding-bottom:4mm; border-bottom:1px solid var(--ink); }
-  h1{ font-family:Oswald, 'Arial Narrow', sans-serif; font-weight:700; font-size:28pt; line-height:1; text-transform:uppercase; letter-spacing:.5px; }
+  h1{ font-family:'Barlow Semi Condensed', 'Arial Narrow', sans-serif; font-weight:700; font-size:30pt; line-height:1; letter-spacing:-.2px; color:var(--ink); }
   .role{ margin-top:2mm; font-weight:600; font-size:10.5pt; }
-  .role b{ color:var(--accent-ink); font-weight:600; }
+  .role b{ color:var(--sub); font-weight:500; }
   .contact{ text-align:right; font-size:8.6pt; color:var(--sub); line-height:1.6; }
   .contact a{ color:var(--ink); text-decoration:none; }
 
-  h2{ font-family:Oswald, 'Arial Narrow', sans-serif; font-weight:500; font-size:10.5pt; letter-spacing:1.6px; text-transform:uppercase; margin:4mm 0 1.6mm; display:flex; align-items:center; gap:3mm; }
-  h2::after{ content:""; flex:1; height:1px; background:var(--line); }
+  h2{ font-family:'Barlow Semi Condensed', 'Arial Narrow', sans-serif; font-weight:500; font-size:12pt; letter-spacing:.2px; color:var(--accent); margin:4mm 0 1.6mm; display:flex; align-items:center; gap:3mm; }
+  h2::after{ content:""; flex:1; height:1px; background:var(--accent); opacity:.35; }
 
   .summary{ font-size:9.1pt; }
 
   .kpis{ display:grid; grid-template-columns:repeat(4,1fr); margin-top:3mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
   .kpis div{ padding:2.2mm 3mm; border-left:1px solid var(--line); }
   .kpis div:first-child{ border-left:0; padding-left:0; }
-  .kpis strong{ display:block; font-family:Oswald, sans-serif; font-size:15pt; font-weight:700; line-height:1.1; }
+  .kpis strong{ display:block; font-family:'Barlow Semi Condensed', sans-serif; font-size:15pt; font-weight:700; line-height:1.1; }
   .kpis span{ font-size:7.8pt; color:var(--sub); line-height:1.3; display:block; }
 
   .job{ margin-top:2.4mm; break-inside:avoid; }
@@ -46,7 +46,7 @@
   .position .dates{ font-weight:400; }
   ul{ margin:1mm 0 0 4.2mm; }
   li{ margin:.3mm 0; padding-left:.5mm; }
-  li::marker{ color:var(--accent-ink); }
+  li::marker{ color:var(--steel); }
   .path{ margin-top:1.6mm; font-size:8.8pt; color:var(--sub); }
   .path b{ color:var(--ink); font-weight:500; }
 
@@ -63,7 +63,7 @@
 <main class="page">
   <header>
     <div>
-      <h1>Lucas Gomes</h1>
+      <h1>Lucas <span style="color:var(--accent)">Gomes</span></h1>
       <p class="role">Analista de Processos e Projetos · <b>BPM · ERP · BI · IA aplicada</b></p>
     </div>
     <div class="contact">
