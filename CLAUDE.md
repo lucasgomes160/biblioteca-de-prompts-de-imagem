@@ -29,6 +29,9 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 1. **Topo que encolhe ao rolar:** abrir com foto + dados (como hoje). Ao descer, esse bloco diminui (vira uma barra compacta fixa) e o resto do conteúdo aparece. Celular e PC com comportamento próprio.
 2. **Menos rolagem:** hoje é preciso descer demais, parece vídeo de site de empresa. Encurtar as seções e tirar os espaços vazios grandes.
 
+3. **Limite de altura (regra do Lucas):** celular no máximo 4 telas de altura (≈3 arrastadas fortes); PC no máximo 3 telas. Medir antes de publicar.
+4. **Foto:** mostrar cabeça e ombros, nunca recorte só do rosto.
+
 ## Regra de artefatos (entrega 4)
 
 - Um assunto = um artefato. Antes de criar, procurar se já existe; se existir, **atualizar o mesmo link**.
