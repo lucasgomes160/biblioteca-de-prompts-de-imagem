@@ -26,7 +26,7 @@ Pedido fora delas → registrar em "Fora do escopo" e voltar para a lista.
 | 3 | Cérebro | ✅ `carreira/2026-11-22-trajetoria-mestre.md` (nota única para roteiros) |
 | 4 | Central | ✅ Carreira com um cartão (site e currículos); formulários, opções visuais e prévia em Arquivados |
 
-- Site público: https://claude.ai/artifact/5B4tvPujAreAgxcrS7zQ1P (v17). Botão "Currículo" serve o PDF de Processos.
+- Site público: https://claude.ai/artifact/5B4tvPujAreAgxcrS7zQ1P (v18). Botão "Currículo" baixa o PDF de Processos pelo recurso de download do Claude (link direto de PDF não abre dentro do Claude).
 - Formação: Tecnólogo em Processos Gerenciais (não bacharelado). Guerra e Lango sem números.
 - Soft skills: pensamento analítico, proatividade, comprometimento, comunicação interpessoal ("entregas comprovadas" não é soft skill).
 
